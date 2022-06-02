@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" class="form_main">
+            <h1>Calculadora Imc</h1>
+            <hr>
+            <label for="">Peso: &nbsp; 
+                <input type="number" name="peso" id="peso" placeholder="Insira Peso (kg)">
+            </label>
+            <Br>
+            </Br>
+            <label for="">Altura:
+                <input type="number" name="altura" id="altura" placeholder="Insira Altura(m)">
+            </label>
+            <BR>
+            </BR>
+            <button type="button" class="somar" onclick="imc">calcular</button>
+            <button class="refresh">Voltar</button>
+            <BR></BR>
+            <span class="resultado"></span>
+        </form>
+        <script src="scripts.js"></script>
+    </div>
+</body>
+</html>
